@@ -133,32 +133,32 @@ input[type=text]{
 }
 .tips{
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     padding: 3rem;
     background-color: #a3bbce;
     margin-top: 2rem;
 }
 .tools{
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     padding: 3rem;
     background-color: #a3bbce;
     margin-top: 2rem;
 }
 .tricks{
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     padding: 3rem;
     background-color: #a3bbce;
     margin-top: 2rem;
 }
 .ingredients{
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     padding: 3rem;
     background-color: #a3bbce;
     margin-top: 2rem;
@@ -203,15 +203,15 @@ padding: 1rem;
 }
 .new{
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     padding: 3rem;
     background-color: #a3bbce;
 }
 .faq{
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     padding: 3rem;
     background-color: #a3bbce;
     margin-top: 2rem;
@@ -224,24 +224,29 @@ padding: 1rem;
     padding: 2rem;
 }
 .why{
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     background-color: #a3bbce;
     padding: 2rem;
 }
 .who{
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     background-color: #a3bbce;
     margin-top: 2rem;
     padding: 2rem;
 }
 .goal{
-    margin-left: 20rem;
-    margin-right: 20rem;
+    width: 20rem;
+    margin: auto;
     background-color: #a3bbce;
     margin-top: 2rem;
     padding: 2rem;
+}
+@media (max-width:630px){
+    .why, .who, .goal{
+        flex-direction: column;
+    }
 }
 .home p{
     margin-top: 2rem;
